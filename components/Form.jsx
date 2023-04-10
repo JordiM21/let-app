@@ -48,11 +48,11 @@ const Form = () => {
 	};
 
 	return (
-		<div>
+		<div className='shadow-lg shadow-blue-400 w-96 p-4 rounded-md my-4'>
 			<form>
-				<h2>
-					Aprende inglés con un{" "}
-					<span>50% OFF</span>
+				<h2 className='text-[var(--color1)] text-lg text-center'>
+					Aprende inglés con un{" "}<br />
+					<span className='text-[var(--color2)]'>50% OFF</span>
 				</h2>
 				{submitted ? (
 					<div style={{ textAlign: "center" }}>
@@ -168,10 +168,11 @@ const Form = () => {
 							onClick={(e) => {
 								handleSubmit(e);
 							}}
+							className='bg-[var(--color3)] text-white block mx-auto w-4/5 text-xl py-4 rounded-md my-4'
 						>
 							{submitted
 								? "enviado!"
-								: "enviar"}
+								: "Comienza Ahora"}
 						</button>
 					</>
 				)}

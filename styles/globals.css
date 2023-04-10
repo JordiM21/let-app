@@ -3,17 +3,18 @@
 @tailwind utilities;
 
 :root {
-	--color1: rgb(20, 15, 45);
-	--color2: rgb(0, 145, 173);
-	--color2Shadow: rgb(1, 106, 126);
-	--color3: rgb(245, 138, 7);
-	--color4: rgb(215, 38, 56);
-	--color-texto-dark: rgb(18, 18, 18);
-	--color-texto-white: rgb(255, 244, 228);
+	--color1: #140f2d;
+	--color2: #0091ad;
+	--color2Shadow: #01697e;
+	--color3: #f58a07;
+	--color4: #d72638;
+	--color-texto-dark: #131313;
+	--color-texto-white: #fff4e4;
 }
 * {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 900;
+	font-weight: 700;
+	color: var(--color-texto-dark);
 }
