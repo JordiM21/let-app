@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Navigation, Pagination, Scrollbar, A11y, Controller } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import testimonios from '@/models/testimonios';
+import { testimonios } from '@/models/testimonios';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -18,9 +18,9 @@ export default function Slider() {
     <div className='md:flex md:items-center flex-row-reverse mx-4'>
       <div className='text-center px-8 my-8 md:w-1/2'>
         <h3 className='text-2xl md:text-4xl'>
-          ¡Somos expertos enseñando idiomas!
+          ¡Enseñamos inglés a personas de todo el mundo!
         </h3>
-        <p className='md:text-2xl'>
+        <p className='md:text-xl'>
           Te invitamos a ver cómo <span className='text-[var(--color2)]'>LET</span> le cambió la vida a estos estudiantes aprendiendo nuevos idiomas
         </p>
       </div>

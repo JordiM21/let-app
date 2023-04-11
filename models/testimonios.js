@@ -11,10 +11,7 @@ import romania from '@/public/flags/romania.png'
 import albania from '@/public/flags/albania.png'
 import italy from '@/public/flags/italy.png'
 
-
-
-
-const testimonios = [
+export const testimonios = [
   {
     person: Boy,
     message: "Trabajo remoto en una empresa en Estados Unidos gracias a LET",
@@ -36,4 +33,3 @@ const testimonios = [
     flag: venezuela
   },
 ]
-export default testimonios;

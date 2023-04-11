@@ -1,3 +1,4 @@
+import SimpleAccordion from '@/components/Accordion'
 import Banner1 from '@/components/Banner1'
 import CTA from '@/components/CTA'
 import Form from '@/components/Form'
@@ -29,6 +30,10 @@ export default function Home() {
       />
       <section>
         <Reasons />
+      </section>
+      <section>
+        <p>¿Dudas? ¡Acláralas con nuestras preguntas frecuentes!</p>
+        <SimpleAccordion />
       </section>
     </>
   )
