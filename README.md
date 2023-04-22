@@ -37,10 +37,11 @@ See the live version in this link
 ## Screenshots
 
 - First View of the Home Page **(Desktop)**
-![App Screenshot](https://i.imgur.com/8HeJers.png)
-- Students Slider **(Mobile)**
-![App Screenshot](https://i.imgur.com/skkOjId.png)
-- Benefits of the Academy **(Mobile)**
-![App Screenshot](https://i.imgur.com/VJ93Nww.png)
+
+<div style={{display="flex"}}>
+<img src="https://i.imgur.com/8HeJers.png" width="100%" />
+<img src="https://i.imgur.com/skkOjId.png" width="400" />
+<img src="https://i.imgur.com/VJ93Nww.png" width="400" />
+</div>
 
 
