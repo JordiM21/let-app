@@ -8,7 +8,8 @@ import { PreguntasHome } from '@/models/preguntasFrecuentes';
 
 export default function SimpleAccordion() {
   return (
-    <div>
+    <div className='mx-8 md:mx-52'>
+      <p className='my-8 text-center text-[var(--color3)] text-xl'>¿Dudas? ¡Acláralas con nuestras preguntas frecuentes!</p>
       {
         PreguntasHome.map((pregunta) => (
           <Accordion>
@@ -23,13 +24,6 @@ export default function SimpleAccordion() {
           </Accordion>
         ))
       }
-      <Accordion>
-        <a href='/info'>
-          <button>
-            ver todos los beneficios <AiOutlineRight className='next' />
-          </button>
-        </a>
-      </Accordion>
     </div>
   );
 }

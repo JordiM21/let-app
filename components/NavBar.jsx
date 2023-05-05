@@ -5,13 +5,6 @@ import IconBig from '@/public/CompleteLogo.png'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 
-
-const navigation = [
-  { name: 'Método', href: '/Metodo', current: false },
-  { name: 'Beneficios', href: '/Beneficios', current: false },
-  { name: 'Niveles', href: '/Niveles', current: false },
-]
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -44,19 +37,33 @@ export default function Example() {
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current ? ' bg-[var(--color2)] text-white' : 'text-gray-300 hover:bg-[var(--color2Shadow)] hover:text-white',
-                          'rounded-md px-3 py-2 text-sm'
-                        )}
-                        aria-current={item.current ? 'page' : undefined}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
+                    <a
+                      href={"/Metodo"}
+                      className={classNames(
+                        router.pathname === "/Metodo" ? ' bg-[#016a7e] text-white' : 'text-gray-300 hover:bg-[var(--color2Shadow)] hover:text-white',
+                        'rounded-md px-3 py-2 text-sm'
+                      )}
+                    >
+                      Método
+                    </a>
+                    <a
+                      href={"/Beneficios"}
+                      className={classNames(
+                        router.pathname === "/Beneficios" ? ' bg-[#016a7e] text-white' : 'text-gray-300 hover:bg-[var(--color2Shadow)] hover:text-white',
+                        'rounded-md px-3 py-2 text-sm'
+                      )}
+                    >
+                      Beneficios
+                    </a>
+                    <a
+                      href={"/Niveles"}
+                      className={classNames(
+                        router.pathname === "/Niveles" ? ' bg-[#016a7e] text-white' : 'text-gray-300 hover:bg-[var(--color2Shadow)] hover:text-white',
+                        'rounded-md px-3 py-2 text-sm'
+                      )}
+                    >
+                      Niveles
+                    </a>
                   </div>
                 </div>
               </div>
@@ -69,20 +76,38 @@ export default function Example() {
           </div>
           <Disclosure.Panel className="sm:hidden absolute z-10 bg-[var(--color2)] w-full">
             <div className="space-y-1 px-2 pb-3 pt-2">
-              {navigation.map((item) => (
-                <Disclosure.Button
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={classNames(
-                    item.current ? ' bg-[#016a7e] text-white' : 'text-gray-300 hover:bg-[var(--color2Shadow)] hover:text-white',
-                    'block rounded-md px-3 py-2 text-base font-medium'
-                  )}
-                  aria-current={item.current ? 'page' : undefined}
-                >
-                  {item.name}
-                </Disclosure.Button>
-              ))}
+              <Disclosure.Button
+                as="a"
+                href="/Metodo"
+                className={classNames(
+                  router.pathname === "/Metodo" ? ' bg-[#016a7e] text-white' : 'text-gray-300 hover:bg-[var(--color2Shadow)] hover:text-white',
+                  'block rounded-md px-3 py-2 text-base font-medium'
+                )}
+              >
+                Método
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href="Beneficios"
+                className={classNames(
+                  router.pathname === "/Beneficios" ? ' bg-[#016a7e] text-white' : 'text-gray-300 hover:bg-[var(--color2Shadow)] hover:text-white',
+                  'block rounded-md px-3 py-2 text-base font-medium'
+                )}
+              >
+                Beneficios
+              </Disclosure.Button>
+
+              <Disclosure.Button
+                as="a"
+                href="/Niveles"
+                className={classNames(
+                  router.pathname === "/Niveles" ? ' bg-[#016a7e] text-white' : 'text-gray-300 hover:bg-[var(--color2Shadow)] hover:text-white',
+                  'block rounded-md px-3 py-2 text-base font-medium'
+                )}
+              >
+                Niveles
+              </Disclosure.Button>
+
             </div>
           </Disclosure.Panel>
         </>

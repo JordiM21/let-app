@@ -32,7 +32,6 @@ export default function Home() {
         <Reasons />
       </section>
       <section>
-        <p>¿Dudas? ¡Acláralas con nuestras preguntas frecuentes!</p>
         <SimpleAccordion />
       </section>
     </>

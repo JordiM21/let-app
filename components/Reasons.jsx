@@ -18,8 +18,8 @@ export default function Reasons() {
       <div className='flex gap-8 flex-col px-16 md:flex-row'>
         {
           reasonsModel.map((reason) => (
-            <div >
-              <Image src={reason.image} width={70} height={70} />
+            <div className=' md:my-12' >
+              <Image src={reason.image} className='w-16 md:w-28' />
               <p className='text-[var(--color2)] text-lg'>{reason.title}</p>
               <p>{reason.text}</p>
             </div>
