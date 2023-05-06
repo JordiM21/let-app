@@ -1,3 +1,4 @@
+import SimpleAccordion from '@/components/Accordion'
 import Banner2 from '@/components/Banner2'
 import CTA from '@/components/CTA'
 import Form from '@/components/Form'
@@ -6,6 +7,7 @@ import MobileDesktop from '@/components/MobileDesktop'
 import Path from '@/components/Path'
 import TimePerWeek from '@/components/TimePerWeek'
 import React from 'react'
+import { PreguntasHome } from '@/models/preguntasFrecuentes'
 
 export default function Metodo() {
   return (
@@ -23,7 +25,7 @@ export default function Metodo() {
       <section>
         <HowItWorks />
       </section>
-      <section className='my-4'>
+      <section className='my-8 md:mb-16'>
         <CTA
           message={"Si aún tienes cualquier duda recuerda que puedes."}
           button={"Solicitar más información"}
@@ -37,8 +39,17 @@ export default function Metodo() {
       <section>
         <TimePerWeek />
       </section>
+      <CTA
+        message={"¿Aún tienes dudas? Resuélvelas con nuestras "}
+        button={"Preguntas Frecuentes"}
+        link={"/#/"}
+        size={"short"}
+      />
       <section>
         <MobileDesktop />
+      </section>
+      <section>
+        <SimpleAccordion PreguntasHome={PreguntasHome} />
       </section>
     </>
   )

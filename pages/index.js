@@ -4,6 +4,9 @@ import CTA from '@/components/CTA'
 import Form from '@/components/Form'
 import Reasons from '@/components/Reasons'
 import Slider from '@/components/Slider'
+import TimePerWeek from '@/components/TimePerWeek'
+import { PreguntasHome } from '@/models/preguntasFrecuentes';
+
 
 
 export default function Home() {
@@ -31,8 +34,17 @@ export default function Home() {
       <section>
         <Reasons />
       </section>
+      <CTA
+        message={"¡Dale un vistazo a nuestro método de eneseñanza!"}
+        button={"Metodología"}
+        link={"/#/"}
+        size={"big"}
+      />
       <section>
-        <SimpleAccordion />
+        <TimePerWeek />
+      </section>
+      <section>
+        <SimpleAccordion PreguntasHome={PreguntasHome} />
       </section>
     </>
   )

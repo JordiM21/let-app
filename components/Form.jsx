@@ -48,7 +48,7 @@ const Form = () => {
 	};
 
 	return (
-		<div className='shadow-lg shadow-blue-400 w-96 p-4 rounded-md my-4'>
+		<div className='shadow-lg bg-white shadow-blue-400 w-96 p-4 rounded-md my-4'>
 			<form>
 				<h2 className='text-[var(--color1)] text-lg text-center'>
 					Aprende inglés con un{" "}<br />

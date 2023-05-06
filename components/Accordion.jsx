@@ -3,10 +3,8 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { AiOutlineRight } from "react-icons/ai";
-import { PreguntasHome } from '@/models/preguntasFrecuentes';
 
-export default function SimpleAccordion() {
+export default function SimpleAccordion({ PreguntasHome }) {
   return (
     <div className='mx-8 md:mx-52'>
       <p className='my-8 text-center text-[var(--color3)] text-xl'>¿Dudas? ¡Acláralas con nuestras preguntas frecuentes!</p>
