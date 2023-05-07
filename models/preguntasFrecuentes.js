@@ -1,3 +1,11 @@
+import { TbAddressBook, TbBrandZoom } from 'react-icons/tb'
+import { FcConferenceCall } from 'react-icons/fc'
+import { FaChalkboardTeacher } from 'react-icons/fa'
+import { GiSchoolBag } from 'react-icons/gi'
+import { AiOutlineSchedule } from 'react-icons/ai'
+import { } from 'react-icons/'
+
+
 export const PreguntasHome = [
   {
     title: "¿Qué es LET Academy?",
@@ -62,7 +70,35 @@ export const PreguntasHome = [
 ]
 
 export const preguntasBeneficios = [
+  {
+    title: "Plan de estudio personalizado",
+    text: "Creamos un plan de aprendizaje personalizado diferente a cada estudiante, sabemos que todos los estudiantes tienen un recorrido diferente y merecen atención especial en su camino.",
+    icon: <TbAddressBook className='text-4xl' />
+  }, {
+    title: "Asesores 24/7",
+    text: "Contamos con un equipo de asesores que estarán siempre dispuestos a responder cualquier duda que tengas acerca de: manejo de plataforma, horarios de estudio, asesorías, bugs o problemas. Recuerda que no son profesores, para eso tienes a tu TUTOR PERSONAL que verás en el siguiente bloque",
+    icon: <FcConferenceCall className='text-4xl' />
 
+  }, {
+    title: "Tutor Personalizado",
+    text: "Al inicio del curso asignaremos un tutor personalizado el cual seguirá tu proceso y se asegurará de tu aprendizaje, con este tutor agendarás las clases en vivo semanales de acuerdo a tu disponibilidad, tambien tendrás su WhatsApp y podrás preguntarle acerca de cualquier tema cuando quieras",
+    icon: <FaChalkboardTeacher className='text-4xl' />
+  },
+  {
+    title: "Clases en vivo 1-1 semanales",
+    text: "Como mencionamos anteriormente tendrás una clase semanal con tu tutor con el objetivo de reforzar conocimientos y practicar lo visto en las clases de la semana, estas clases serán personalizadas y enfocadas en 1 estudiante unicamente",
+    icon: <TbBrandZoom className='text-4xl' />
+  },
+  {
+    title: "Apoyo Académico",
+    text: "Como sabes, tendrás el WhatsApp de tu TUTOR PERSONAL, a el cual le puedes enviar ya sea una foto de tu actividad a realizar o bien lo pueden discutir en la reunión semanal (Si le envías foto por WhatsApp recuerda que debes darles suficiente tiempo). el TUTOR PERSONAL tiene la función de ayudarte con tus tareas de colegio o universidad, sabemos que hacer estas tareas solos puede llegar a ser bastante complicado.",
+    icon: <GiSchoolBag className='text-4xl' />
+  },
+  {
+    title: "Horarios Flexibles",
+    text: "Al inicio del curso también establecerás los horarios en los cuales estudiarás y dedicarás tiempo a aprender (estos horarios son según tu disponibilidad de tiempo y solo cuando puedas y te sientas cómodo), debes seguir estos horarios con disciplina. Esto nos ayuda a mantener un orden y un seguimiento de el avance de nuestros estudiantes",
+    icon: <AiOutlineSchedule className='text-4xl' />
+  },
 ]
 
 export const preguntasNiveles = [

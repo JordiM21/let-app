@@ -20,6 +20,72 @@
 	color: var(--color-texto-dark);
 }
 
+/* Button Beneficios */
+.benefits-button {
+	position: relative;
+	display: inline-block;
+	padding: 12px 32px;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--color2);
+	background-color: #e9e8e8d2;
+	border: none;
+	border-radius: 50px;
+	overflow: hidden;
+	z-index: 1;
+	transition: transform 0.3s ease-in-out;
+	cursor: pointer;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+}
+
+.benefits-button:hover {
+	transform: scale(1.05);
+	color: #fff;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.benefits-button:active {
+	transform: scale(0.9);
+}
+
+.benefits-button::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, #007bff, #00bfff);
+	transition: left 0.4s ease-in-out;
+	z-index: -1;
+	border-radius: 15px;
+}
+
+.benefits-button:hover::before {
+	left: 0;
+}
+
+.benefits-button span {
+	position: relative;
+	z-index: 2;
+}
+
+.benefits-button:hover span {
+	animation: slide 0.4s forwards;
+}
+
+@keyframes slide {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(100%);
+	}
+}
 /* SWITCH BUTTON */
 
 .switch-button {
