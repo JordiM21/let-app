@@ -1,7 +1,7 @@
 import Banner3 from '@/components/Banner3'
 import CustomAccordion from '@/components/CustomAccordion'
 import TableDiferences from '@/components/TableDiferences'
-import { preguntasBeneficios } from '@/models/preguntasFrecuentes'
+import { PreguntasHome, preguntasBeneficios } from '@/models/preguntasFrecuentes'
 import Image from 'next/image'
 import React from 'react'
 import modelkid from '@/public/model-kid-meeting.jpg'
@@ -10,10 +10,18 @@ import { FcIdea } from 'react-icons/fc'
 import Recuerda from '@/components/Recuerda'
 import HoverableButton from '@/components/HoverableButton'
 import CTA from '@/components/CTA'
+import OtherBenefits from '@/components/OtherBenefits'
+import SimpleAccordion from '@/components/Accordion'
 
 export default function Beneficios() {
   return (
     <div>
+      <CTA
+        message={"Comienza a hablar inglés y expande tus posibilidades ahora"}
+        button={"Comienza ahora"}
+        link={"/#/"}
+        size={"big"}
+      />
       <Banner3 />
       <CustomAccordion preguntasBeneficios={preguntasBeneficios} />
       <CTA
@@ -41,6 +49,13 @@ export default function Beneficios() {
         <Recuerda message={"Recuerda que tendrás a tu disposición el WhatsApp de tu TUTOR PERSONAL para organizar lecciones y resolver las dudas que tengas"} />
       </section>
       <TableDiferences />
+      <OtherBenefits />
+      <div className="justify-center flex items-center space-x-3 py-8 text-white rounded-lg transition-all duration-400 transform cursor-pointer">
+        <HoverableButton text={"¡Listo para ser Bilingüe!"} />
+      </div>
+      <section>
+        <SimpleAccordion PreguntasHome={PreguntasHome} />
+      </section>
     </div>
   )
 }

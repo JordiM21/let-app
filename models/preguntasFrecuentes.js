@@ -93,7 +93,6 @@ export const preguntasBeneficios = [
     title: "Asesores 24/7",
     text: "Contamos con un equipo de asesores que estarán siempre dispuestos a responder cualquier duda que tengas acerca de: manejo de plataforma, horarios de estudio, asesorías, bugs o problemas. Recuerda que no son profesores, para eso tienes a tu TUTOR PERSONAL que verás en el siguiente bloque",
     icon: <FcCustomerSupport className='text-5xl' />
-    //  FcDiploma1 FcCollaboration FcBinoculars
   },
 ]
 
