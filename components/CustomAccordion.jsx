@@ -15,11 +15,11 @@ export default function CustomAccordion({ preguntasBeneficios }) {
               expandIcon={<ExpandMoreIcon />}
               aria-controls='panel1a-content'
               id='panel1a-header'
-              className='h-20'
+              className='h-24 bg-gray-100'
 
             >
               {pregunta.icon}
-              <h3 className='text-[var(--color1)] ml-4 text-lg'>{pregunta.title}</h3>
+              <h3 className='text-[var(--color1)] ml-4 text-xl'>{pregunta.title}</h3>
             </AccordionSummary>
             <AccordionDetails style={{ color: 'grayText' }}>{pregunta.text}</AccordionDetails>
           </Accordion>

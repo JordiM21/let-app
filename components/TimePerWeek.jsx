@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FcIdea } from 'react-icons/fc'
+import Recuerda from './Recuerda'
 
 export default function TimePerWeek() {
   const [isChecked, setIsChecked] = useState(false)
@@ -50,10 +51,7 @@ export default function TimePerWeek() {
           <p className='text-gray-500 font-medium'>Semana 15</p>
         </div>
       </div>
-      <div className='my-8 flex items-center md:justify-center gap-4 bg-blue-400/25 w-80 md:w-8/12 p-2 rounded-md mx-auto'>
-        <FcIdea className='text-7xl md:text-4xl' />
-        <small className='md:text-md'>Recuerda que puedes organizar tus horas de estudio los días que quieras gracias a la flexibilidad que ofrecemos en LET Academy</small>
-      </div>
+      <Recuerda message={"Recuerda que puedes organizar tus horas de estudio los días que quieras gracias a la flexibilidad que ofrecemos en LET Academy"} />
     </div>
   )
 }
