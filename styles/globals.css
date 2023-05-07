@@ -148,6 +148,11 @@
 	border-color: transparent transparent var(--color3) transparent;
 	border-radius: 0 0 0 0;
 }
+@media screen and (max-width: 450px) {
+	.intensive-triangle {
+		border-width: 0 0 240px 300px;
+	}
+}
 
 /* loader to interact with whatever way to learn */
 .loader {

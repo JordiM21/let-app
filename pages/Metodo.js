@@ -13,7 +13,7 @@ export default function Metodo() {
   return (
     <>
       <CTA
-        message={"¡POR POCOS DÍAS! No te desmotives y aprende inglés este 2023 con esta Oferta Especial."}
+        message={"No te desmotives y aprovecha esta Oferta Especial."}
         button={"¡Comienza Hoy!"}
         link={"/#/"}
         size={"big"}

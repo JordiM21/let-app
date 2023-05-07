@@ -6,7 +6,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export default function SimpleAccordion({ PreguntasHome }) {
   return (
-    <div className='mx-8 md:mx-52'>
+    <div className='mx-8 mt-32 sm:mt-0 md:mx-52'>
       <p className='my-8 text-center text-[var(--color3)] text-xl'>¿Dudas? ¡Acláralas con nuestras preguntas frecuentes!</p>
       {
         PreguntasHome.map((pregunta) => (

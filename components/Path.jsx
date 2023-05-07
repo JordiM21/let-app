@@ -15,18 +15,18 @@ export default function Path() {
       <p className='font-semibold'>No te preocupes, estaremos contigo paso a paso para que accedas a todas tus clases, lecciones, contenidos y herramientas de LET Academy con facilidad.</p>
       <div className='flex flex-col'>
         <div className='my-12 relative'>
-          <header className='flex justify-start items-center gap-8'>
+          <header className='flex justify-start items-center gap-8 mb-4'>
             <p className='text-[var(--color2)] w-8 h-8 flex items-center justify-center shadow-slate-500 shadow-md rounded-full'>1</p>
             <p className='text-[var(--color2)] md:text-3xl'>Tour Interactivo</p>
           </header>
-          <div id='Flecha' className='absolute top-10 left-2'>
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
+          <div id='Flecha' className='absolute top-16 md:top-10 left-2'>
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
             <AiOutlineDash className='rotate-90' />
             <AiOutlineDash className='rotate-90' />
             <AiOutlineDash className='rotate-90' />
@@ -52,13 +52,13 @@ export default function Path() {
             <p className='text-[var(--color2)] w-8 h-8 flex items-center justify-center shadow-slate-500 shadow-md rounded-full'>2</p>
             <p className='text-[var(--color2)] md:text-3xl'>Establecimiento de horarios fijos</p>
           </header>
-          <div id='Flecha' className='absolute top-10 left-2'>
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
+          <div id='Flecha' className='absolute top-16 md:top-10 left-2'>
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
             <AiOutlineDash className='rotate-90' />
             <AiOutlineDash className='rotate-90' />
             <AiOutlineDash className='rotate-90' />
@@ -86,12 +86,12 @@ export default function Path() {
             <p className='text-[var(--color2)] md:text-3xl'>Acompañamiento vía Whatsapp</p>
           </header>
           <div id='Flecha' className='absolute top-10 left-2'>
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
             <AiOutlineDash className='rotate-90' />
             <AiOutlineDash className='rotate-90' />
             <AiOutlineDash className='rotate-90' />
@@ -119,12 +119,12 @@ export default function Path() {
             <p className='text-[var(--color2)] md:text-3xl'>Agenda clases en vivo con un tutor</p>
           </header>
           <div id='Flecha' className='absolute top-10 left-2'>
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
+            <AiOutlineDash className='rotate-90 hidden md:block' />
             <AiOutlineDash className='rotate-90' />
             <AiOutlineDash className='rotate-90' />
             <AiOutlineDash className='rotate-90' />
@@ -143,42 +143,17 @@ export default function Path() {
             <AiOutlineDash className='rotate-90' />
             <MdArrowDownward />
           </div>
-          <Image src={onlineMeeting} className='w-80 md:w-96 my-4 mx-auto' />
+          <Image src={onlineMeeting} className=' w-60 sm:w-80 md:w-96 my-4 mx-auto' />
           <p className='text-sm text-slate-600 my-12 md:my-0'>A diferencia de otros cursos, al inscribirte a LET Academy tendrás a tu disposición inmediatamente las clases en vivo con un tutor para reforzar tus conocimientos</p>
         </div>
         <div className='my-12 relative'>
           <header className='flex justify-start items-center gap-8'>
-            <p className='text-[var(--color2)] w-8 h-8 flex items-center justify-center shadow-slate-500 shadow-md rounded-full'>5</p>
+            <p className='text-[var(--color2)] w-12 h-8 flex items-center justify-center shadow-slate-500 shadow-md rounded-full'>5</p>
             <p className='text-[var(--color2)] md:text-3xl'>Realiza las pruebas finales para obtener tu certificado</p>
           </header>
-          <div id='Flecha' className='absolute top-10 left-2 md:top-16 md:left-1'>
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <AiOutlineDash className='rotate-90' />
-            <MdArrowDownward />
-          </div>
-          <Image src={certificate} className='w-80 md:w-96 my-4 mx-auto' />
-          <p className='text-sm text-slate-600 my-12 md:my-0'>Para poder obtener tu certificado queremos asegurarnos que dominas a la perfección el nivel, por esta razón tienes una prueba escrita y además tienes una prueba oral con un tutor la cual será personalizada 1c1, y si logras superarlas obtendrás tu certificado de nivel y pasarás al siguiente nivel</p>
         </div>
+        <Image src={certificate} className='w-80 md:w-96 my-4 mx-auto' />
+        <p className='text-sm text-slate-600 my-12 md:my-0'>Para poder obtener tu certificado queremos asegurarnos que dominas a la perfección el nivel, por esta razón tienes una prueba escrita y además tienes una prueba oral con un tutor la cual será personalizada 1c1, y si logras superarlas obtendrás tu certificado de nivel y pasarás al siguiente nivel</p>
       </div>
     </div>
   )

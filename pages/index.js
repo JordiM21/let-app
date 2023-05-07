@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <CTA
-        message={"¡POR POCOS DÍAS! Aprovecha 50% OFF en tu curso de inglés y sé bilingüe este 2023."}
+        message={"Aprovecha 50% OFF en tu curso de inglés."}
         button={"¡Comienza Hoy!"}
         link={"/#/"}
         size={"big"}

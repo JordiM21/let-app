@@ -17,7 +17,7 @@ export default function Beneficios() {
   return (
     <div>
       <CTA
-        message={"Comienza a hablar inglés y expande tus posibilidades ahora"}
+        message={"Expande tus posibilidades aprendiendo inglés"}
         button={"Comienza ahora"}
         link={"/#/"}
         size={"big"}
@@ -25,13 +25,13 @@ export default function Beneficios() {
       <Banner3 />
       <CustomAccordion preguntasBeneficios={preguntasBeneficios} />
       <CTA
-        message={"No dejes pasar esta oportunidad, aprende inglés con un 50% de descuento"}
-        button={"Solicitar más información"}
+        message={"Aprende inglés con un 50% de descuento"}
+        button={"Solicitar información"}
         link={"/#/"}
         size={"medium"}
       />
       <section>
-        <div className='w-[80%] lg:w-[90%] md:gap-8 mx-auto flex flex-col md:flex-row items-center justify-around'>
+        <div className='space-y-16 w-[80%] lg:w-[90%] md:gap-8 mx-auto flex flex-col md:flex-row items-center justify-around'>
           <div>
             <Image src={modelkid} className='rounded-lg w-full h-[500px] object-cover mx-auto' />
             <h3 className='text-xl my-4 text-[var(--color2)] lg:text-3xl'>¿Cuanto tiempo demora?</h3>
