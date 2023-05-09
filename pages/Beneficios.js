@@ -27,7 +27,7 @@ export default function Beneficios() {
       <CTA
         message={"Aprende inglés con un 50% de descuento"}
         button={"Solicitar información"}
-        link={"/#"}
+        link={"/#/"}
         size={"medium"}
       />
       <section>
