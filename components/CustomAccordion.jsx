@@ -10,7 +10,7 @@ export default function CustomAccordion({ preguntasBeneficios }) {
       <p className='my-8 text-center text-[var(--color3)] text-xl'>Beneficios únicos para nuestros estudiantes</p>
       {
         preguntasBeneficios.map((pregunta) => (
-          <Accordion onSelect={() => alert("change!")} className='my-8 border-[var(--color2)] border-collapse border-2'>
+          <Accordion className='my-8 border-[var(--color2)] border-collapse border-2'>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls='panel1a-content'

@@ -49,6 +49,12 @@ export default function Beneficios() {
         <Recuerda message={"Recuerda que tendrás a tu disposición el WhatsApp de tu TUTOR PERSONAL para organizar lecciones y resolver las dudas que tengas"} />
       </section>
       <TableDiferences />
+      <CTA
+        message={"Aprende inglés con un 50% de descuento"}
+        button={"Solicitar información"}
+        link={"/#/"}
+        size={"small"}
+      />
       <OtherBenefits />
       <div className="justify-center flex items-center space-x-3 py-8 text-white rounded-lg transition-all duration-400 transform cursor-pointer">
         <HoverableButton text={"¡Listo para ser Bilingüe!"} />
