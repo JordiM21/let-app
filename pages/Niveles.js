@@ -5,8 +5,11 @@ import Recuerda from '@/components/Recuerda'
 import WhatsMyLevel from '@/components/WhatsMyLevel'
 import Image from 'next/image'
 import React from 'react'
-import kidGirl from '@/public/model-kid-girl.jpg'
+import img4 from '@/public/model-kid-girl.jpg'
 import img2 from '@/public/model-girl.jpg'
+import chatLet from '@/public/onlinemeetingzoom.png'
+import OnlineQuiz from '@/components/OnlineQuiz'
+import pdfReader from '@/components/pdfReader.jsx'
 
 export default function Niveles() {
   return (
@@ -34,7 +37,7 @@ export default function Niveles() {
             <p className='w-8 h-8 bg-[var(--color2)] text-white flex rounded-full items-center justify-center'>1</p>
             <p className='text-[var(--color2)] '>Apoyo personalizado del tutor</p>
           </header>
-          <Image className='rounded-lg my-4 object-cover mx-auto' src={kidGirl} width={260} height={260} />
+          <Image className='rounded-lg my-4 object-cover mx-auto' src={chatLet} width={260} height={260} />
           <p className='text-gray-800 text-sm'>Tu tutor personalizado te ayudará al final de cada módulo y en cada clase a <span className='text-[var(--color3)] '> mejorar en los temas que necesites,</span> al igual estará muy pendiente de tu progreso y de que avances a tiempo.</p>
         </div>
         <div>
@@ -50,18 +53,19 @@ export default function Niveles() {
             <p className='w-8 h-8 bg-[var(--color2)] text-white flex rounded-full items-center justify-center'>3</p>
             <p className='text-[var(--color2)] '>Pruebas de aprendizaje</p>
           </header>
-          <Image className='rounded-lg my-4 object-cover mx-auto' src={img2} width={260} height={260} />
+          <OnlineQuiz />
           <p className='text-gray-800 text-sm'>Nos aseguramos que todos nuestros estudiantes aprendan realmente y tengan las <span className='text-[var(--color3)] '>capacidades necesarias</span> para pasar el nivel, es por eso que para pasar cada nivel tendrás que pasar una prueba escrita y un encuentro oral con tu tutor personalizado, donde tendrán una charla y calificará si estás preparado/a.</p>
         </div>
         <div>
           <header className='flex items-center gap-4'>
-            <p className='w-8 h-8 bg-[var(--color2)] text-white flex rounded-full items-center justify-center'>3</p>
-            <p className='text-[var(--color2)] '>Pruebas de aprendizaje</p>
+            <p className='w-8 h-8 bg-[var(--color2)] text-white flex rounded-full items-center justify-center'>4</p>
+            <p className='text-[var(--color2)] '>Material de Aprendizaje</p>
           </header>
-          <Image className='rounded-lg my-4 object-cover mx-auto' src={img2} width={260} height={260} />
+          <Image className='rounded-lg my-4 object-cover mx-auto' src={img4} width={260} height={260} />
           <p className='text-gray-800 text-sm'>Nos aseguramos que todos nuestros estudiantes aprendan realmente y tengan las <span className='text-[var(--color3)] '>capacidades necesarias</span> para pasar el nivel, es por eso que para pasar cada nivel tendrás que pasar una prueba escrita y un encuentro oral con tu tutor personalizado, donde tendrán una charla y calificará si estás preparado/a.</p>
         </div>
       </section>
+      <pdfReader />
     </>
   )
 }
