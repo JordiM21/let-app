@@ -20,7 +20,7 @@ export default function Niveles() {
       <CTA
         message={"No importa en el nivel que te encuentres, ¡siempre puedes mejorar!"}
         button={"¡Comienza Hoy!"}
-        link={"/#/"}
+        link={"/promociones"}
         size={"big"}
       />
       <Banner4 />
@@ -29,7 +29,7 @@ export default function Niveles() {
       <CTA
         message={"Aprovecha nuestra oferta exclusiva "}
         button={"¡Sé bilingüe hoy!"}
-        link={"/#/"}
+        link={"/promociones"}
         size={"small"}
       />
       <WhatsMyLevel />

@@ -18,7 +18,7 @@ export default function Beneficios() {
       <CTA
         message={"Expande tus posibilidades aprendiendo inglés"}
         button={"Comienza ahora"}
-        link={"/#/"}
+        link={"/promociones"}
         size={"big"}
       />
       <Banner3 />
@@ -26,7 +26,7 @@ export default function Beneficios() {
       <CTA
         message={"Aprende inglés con un 50% de descuento"}
         button={"Solicitar información"}
-        link={"/#/"}
+        link={"/promociones"}
         size={"medium"}
       />
       <section>
@@ -51,7 +51,7 @@ export default function Beneficios() {
       <CTA
         message={"Aprende inglés con un 50% de descuento"}
         button={"Solicitar información"}
-        link={"/#/"}
+        link={"/promociones"}
         size={"small"}
       />
       <OtherBenefits />
