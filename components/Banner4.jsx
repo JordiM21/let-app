@@ -1,5 +1,7 @@
 import React from 'react'
 import HoverableButton from './HoverableButton'
+import banner from '@/public/model-kid-mom-cover.png'
+import Image from 'next/image'
 
 export default function Banner4() {
   return (
@@ -11,7 +13,7 @@ export default function Banner4() {
           <HoverableButton text={"¡Comienza ahora!"} />
         </div>
       </div>
-
+      <Image src={banner} className='w-full object-cover h-[550px] right-0 top-0 -z-10 absolute' />
     </div>
   )
 }
