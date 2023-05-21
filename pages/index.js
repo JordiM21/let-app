@@ -15,7 +15,7 @@ export default function Home() {
       <CTA
         message={"Aprovecha 50% OFF en tu curso de inglés."}
         button={"¡Comienza Hoy!"}
-        link={"/promociones"}
+        link={"/Promociones"}
         size={"big"}
       />
       <section className='flex items-center flex-wrap justify-around md:flex-row flex-col '>
@@ -28,7 +28,7 @@ export default function Home() {
       <CTA
         message={"¡Pierde el miedo de hablar inglés!"}
         button={"¡Quiero empezar!"}
-        link={"/promociones"}
+        link={"/Promociones"}
         size={"small"}
       />
       <section>
@@ -37,7 +37,7 @@ export default function Home() {
       <CTA
         message={"¡Dale un vistazo a nuestro método de eneseñanza!"}
         button={"Metodología"}
-        link={"/promociones"}
+        link={"/Promociones"}
         size={"big"}
       />
       <section>

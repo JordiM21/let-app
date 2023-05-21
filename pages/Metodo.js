@@ -15,7 +15,7 @@ export default function Metodo() {
       <CTA
         message={"No te desmotives y aprovecha esta Oferta Especial."}
         button={"¡Comienza Hoy!"}
-        link={"/promociones"}
+        link={"/Promociones"}
         size={"big"}
       />
       <section className='flex items-center flex-wrap justify-around md:flex-row flex-col '>
@@ -29,7 +29,7 @@ export default function Metodo() {
         <CTA
           message={"Si aún tienes cualquier duda recuerda que puedes."}
           button={"Solicitar más información"}
-          link={"/promociones"}
+          link={"/Promociones"}
           size={"short"}
         />
       </section>
@@ -42,7 +42,7 @@ export default function Metodo() {
       <CTA
         message={"¿Aún tienes dudas? Resuélvelas con nuestras "}
         button={"Preguntas Frecuentes"}
-        link={"/promociones"}
+        link={"/Promociones"}
         size={"short"}
       />
       <section>
