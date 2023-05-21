@@ -66,7 +66,7 @@ export default function TableDiferences() {
       <h1 className='w-10/12 mx-auto text-center text-[var(--color2Shadow)] text-2xl lg:text-4xl my-4 md:my-8'>Comparamos <span className='text-[var(--color3)]'>LET Academy</span> con otros métodos de aprender inglés y este fue el resultado</h1>
       <TableContainer component={Paper} className='w-[95%] lg:w-[75%] mx-auto'>
         <Table sx={{ minWidth: 650 }} aria-label="caption table">
-          <caption>Comparamos LET Academy con otros métodos de aprender</caption>
+          <caption className='text-sm'><span className='md:hidden'>(Desliza a la izquierda para ver todos los beneficios) </span>Comparación de LET Academy con otros métodos </caption>
           <TableHead>
             <TableRow>
               <TableCell></TableCell>

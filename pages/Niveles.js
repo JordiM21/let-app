@@ -11,7 +11,7 @@ import chatLet from '@/public/onlinemeetingzoom.png'
 import OnlineQuiz from '@/components/OnlineQuiz'
 import PdfReader from '@/components/pdfReader'
 import { AiOutlineDownload } from 'react-icons/ai'
-import { PreguntasHome, preguntasNiveles } from '@/models/preguntasFrecuentes'
+import { preguntasNiveles } from '@/models/preguntasFrecuentes'
 import SimpleAccordion from '@/components/Accordion'
 
 export default function Niveles() {
@@ -77,7 +77,7 @@ export default function Niveles() {
           <AiOutlineDownload className='group-hover:fill-[var(--color3)] fill-white' size={40} />
         </a>
       </section>
-      <SimpleAccordion PreguntasHome={PreguntasHome} />
+      <SimpleAccordion PreguntasHome={preguntasNiveles} />
     </>
   )
 }
