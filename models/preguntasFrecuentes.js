@@ -19,16 +19,8 @@ export const PreguntasHome = [
     text: "La mayoría de las veces los métodos de enseñanza de idioma que usan las instituciones educativas regulares no son el camino más apropiado para muchos estudiantes, lo cual los lleva a aburrirse, estancarse o incluso tenerle miedo a el inglés, lo cual cambia por completo con nuestra propuesta innovadora y eficaz, en el cual el estudiante tendrá un acercamiento personalizado con el profesor y tendrá un camino establecido el cual lo llevará a la fluidez."
   },
   {
-    title: "App Móvil y Offline",
-    text: "No te limites a aprender el idioma sino tienes un computador o una buena conexión a internet, nuestro programa ofrece una aplicación móvil en la cual podrás también descargar las clases para verlas donde quieras y sin internet, Awesome!",
-  },
-  {
-    title: "No estoy conforme con el curso, quiero un reembolso",
-    text: "Confiamos tanto en nuestro programa y en los resultados que tiene que te ofrecemos una garantía de satisfacción o periodo de prueba en el cual tendrás acceso a las clases y los profesores por 15 días, dentro de los cuales si el programa no te convence simplemente puedes pedir un reembolso y nos encargaremos de devolverte la totalidad de tu dinero sin hacerte una sola pregunta",
-  },
-  {
     title: "¿Como funciona la plataforma?",
-    text: "Una vez que te conviertes en estudiante tendrás a tu disposición una plataforma con clases interactivas pre-grabadas de las cuales puedes aprender mucho, verlas cuando y donde quieras ya que también son descargables, aparte de esta plataforma tambien tendras nuestra plataforma Students que es nuestra plataforma con todo el material de estudio que necesitas a través de los niveles que vayas adquiriendo.",
+    text: "Una vez que te conviertes en estudiante tendrás nuestra plataforma Students que es nuestra plataforma con todo el material de estudio que necesitas a través de los niveles que vayas adquiriendo. En la cual tu tutor asignado podra ver tu progreso y avance en los niveles",
   },
   {
     title: "¿Es fácil usar la plataforma de aprendizaje?",
@@ -36,11 +28,11 @@ export const PreguntasHome = [
   },
   {
     title: "¿Como funciona la plataforma Students?",
-    text: "En la plataforma students tendrás acceso a todo el material de estudio y aprendizaje, así como juegos divertidos, prácticas interáctivas, herramienta de traducción en tiempo real y mucho más!",
+    text: "En la plataforma students tendrás acceso a todo el material de estudio y aprendizaje, así como videos divertidos, prácticas interáctivas, herramienta de practica, personalización de personaje y mucho más!",
   },
   {
     title: "¿Qué necesito para utilizar la plataforma LET Academy?",
-    text: "Solo necesitas un teléfono, computadora o tablet, y conexión a Internet para ingresar a nuestra plataforma (puedes descargar las video-clases para verlas sin conexión), unos audífonos y un micrófono.",
+    text: "Solo necesitas un teléfono, computadora o tablet, y conexión a Internet para ingresar a nuestra plataforma, unos audífonos y un micrófono.",
   },
   {
     title: "¿Cuánto cuesta el curso de inglés de LET Academy?",
@@ -48,11 +40,11 @@ export const PreguntasHome = [
   },
   {
     title: "¿Qué aprenderé en LET Academy?",
-    text: "¡Aprenderás a hablar en inglés! Nuestros profesores nativos te enseñarán a comunicarte en este idioma sin acentos. Además, nuestra plataforma interactiva, te permitirá ampliar tu vocabulario, comprender la gramática, aprender inglés especializado en tu área laboral. También podrás prepararte para los exámenes internacionales más reconocidos que acreditan tu dominio del idioma.",
+    text: "¡Aprenderás a hablar en inglés sin miedo! Nuestros profesores te enseñarán a comunicarte en este idioma sin acentos. Además, nuestra plataforma interactiva, te permitirá ampliar tu vocabulario, comprender la gramática, aprender inglés especializado en tu área laboral. También podrás prepararte para los exámenes internacionales más reconocidos que acreditan tu dominio del idioma.",
   },
   {
     title: "¿En cuánto tiempo voy a aprender inglés con LET Academy?",
-    text: "En LET Academy puedes avanzar tan rápido como quieras. Recuerda que aparte de tener un asesor personalizado que te fijará un camino a recorrer y los campos a mejorar, también tendrás nuestra plataforma que te permite aprender a tu ritmo gracias a nuestras clases pre-grabadas por niveles y las herramientas interactivas que te permiten practicar cuando tú quieras. Con un poco de organización y muchas ganas, ¡podrás lograr la fluidez mucho más rápido que en otros cursos!",
+    text: "En LET Academy puedes avanzar tan rápido como quieras. Recuerda que aparte de tener un asesor personalizado que te fijará un camino a recorrer y los campos a mejorar, también tendrás nuestra plataforma que te permite aprender a tu ritmo gracias a las herramientas interactivas que te permiten practicar cuando tú quieras. Con un poco de organización y muchas ganas, ¡podrás lograr la fluidez mucho más rápido que en otros cursos!",
   },
   {
     title: "¿Puedo empezar como principiante?",
@@ -60,7 +52,7 @@ export const PreguntasHome = [
   },
   {
     title: "¿Puedo ver el pensum de los niveles?",
-    text: "",
+    text: "Claro que si! Dejanos tus datos en el formulario y te enviaremos un correo con toda la informacion",
   },
 ]
 
@@ -99,7 +91,7 @@ export const preguntasBeneficios = [
 export const preguntasNiveles = [
   {
     title: "¿Que sucede si me demoro más de lo normal en un nivel?",
-    text: "No te preocuoes, puedes avanzar a tu ritmo y ver las clases según tu disponibilidad de tiempo, una vez compres el nivel con su material, será tuyo de por vida y podrás verlo las veces que quieras",
+    text: "No te preocuopes, puedes avanzar a tu ritmo y ver las clases según tu disponibilidad de tiempo, una vez compres el nivel con su material, será tuyo de por vida y podrás verlo las veces que quieras",
   }, {
     title: "¿Que sucede si no supero un Quiz o test de nivel?",
     text: "Los Test de nivel valoran tu habilidad con el inglés y tus conocimientos adquiridos, sino lo superas en el primer intento, tranquilo, podrás seguir practicando y probar nuevamente!",
@@ -110,10 +102,6 @@ export const preguntasNiveles = [
   {
     title: "No me siento cómodo en mi nivel ¿Puedo cambiar?",
     text: "¡Claro! Existen diversos tipos de cambios, ya sea a un nivel menor o a un nivel mayor, en los dos casos tendrás que solicitarlo con el equipo de soporte y en el caso de aumentar un nivel harás una pequeñas prueba para convalidar conocimientos, en el caso de bajar de nivel lo harás inmediatamente.",
-  },
-  {
-    title: "No me siento conforme con el curso ¿Puedo pedir un reembolso?",
-    text: "Por supuesto, todos nuestros estudiantes que compran el curso pueden solicitar un reembolso dentro de 15 días luego de haber comprado el curso y haber adquirido la membresía, no te haremos preguntas y te devolveremos tu dinero sin excusas.",
   },
   {
     title: "¿Puedo obtener un plan sin tutor?",

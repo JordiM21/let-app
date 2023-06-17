@@ -109,7 +109,7 @@
 }
 
 .switch-slider::after {
-	content: 'MODO REGULAR';
+	content: 'MODO INTENSIVO';
 	width: 150px;
 	height: 50px;
 	background-color: var(--color2);
@@ -126,7 +126,7 @@
 }
 
 #toggle:checked + .switch-slider::after {
-	content: 'MODO INTENSIVO';
+	content: 'MODO REGULAR';
 	background-color: var(--color3);
 	transform: translateX(130px);
 }

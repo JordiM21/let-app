@@ -49,7 +49,7 @@ export default function Niveles() {
             <p className='text-[var(--color2)] md:text-xl '>Clases Interáctivas</p>
           </header>
           <Image className='rounded-lg my-4 object-cover mx-auto md:h-64 md:w-96' src={img2} width={260} height={260} />
-          <p className='text-gray-800 text-sm'>Clases de aprendizaje didáctico y eficaz, <span className='text-[var(--color3)] '>situaciones de la vida real</span>, no te aburres y puedes verlas desde cualquier parte gracias a que son pre-grabadas y puedes <span className='text-[var(--color3)] '>descargarlas.</span> ¡No hay excusas!</p>
+          <p className='text-gray-800 text-sm'>Clases de aprendizaje didáctico y eficaz, <span className='text-[var(--color3)] '>situaciones de la vida real</span>, no te aburres y puedes verlas desde cualquier parte gracias a su facilidad de acceso, estamos seguros que <span className='text-[var(--color3)] '>aprender muchisimo.</span> ¡No hay excusas!</p>
         </div>
         <div className='md:w-1/2 md:h-96'>
           <header className='flex items-center gap-4'>

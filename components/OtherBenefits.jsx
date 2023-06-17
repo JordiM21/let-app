@@ -17,7 +17,7 @@ export default function OtherBenefits() {
       <div className='mx-4 my-4 text-center'>
         <FcMultipleDevices className='text-9xl mx-auto' />
         <h3 className='text-2xl text-[var(--color1)] text-center '>Estudia desde cualquier dispositivo</h3>
-        <small className='text-gray-700'>En LET Academy tendrás la posibildad de acceder a el material de estudio y clases desde cualquier dispositivo, ya sea desde el pc o desde tu smartphone, <span className='text-[var(--color3)]'>incluso puedes descargar las clases de video en la app para verlas luego sin conexión.</span> ¡Genial!</small>
+        <small className='text-gray-700'>En LET Academy tendrás la posibildad de acceder a el material de estudio y clases desde cualquier dispositivo, ya sea desde el pc o desde tu smartphone, <span className='text-[var(--color3)]'>ya que nuestra pagina web esta optimizada para cualquier dispositivo.</span> ¡Genial!</small>
       </div>
       <div className='mx-4 my-4 text-center'>
         <FcCollaboration className='text-9xl mx-auto' />

@@ -22,13 +22,13 @@ export default function TimePerWeek() {
         {
           isChecked ?
             <>
-              <p>Completa un nivel en <span className='text-[var(--color3)]'>8 semanas</span></p>
-              <small className='text-gray-500'>8 horas de estudio semanales</small>
+              <p>Completa un nivel en <span className='text-[var(--color3)]'>20 semanas</span></p>
+              <small className='text-gray-500'>6 horas de estudio semanales</small>
             </>
             :
             <>
-              <p>Completa un nivel en <span className='text-[var(--color2)]'>15 semanas</span></p>
-              <small className='text-gray-500'>4 horas de estudio semanales</small>
+              <p>Completa un nivel en <span className='text-[var(--color2)]'>10 semanas</span></p>
+              <small className='text-gray-500'>3 horas de estudio semanales</small>
             </>
         }
         <div className='mx-4 flex'>
@@ -47,8 +47,8 @@ export default function TimePerWeek() {
         </div>
         <div className='flex justify-between text-gray-500'>
           <p className='text-gray-500 font-medium'>Semana 1</p>
-          <p className='text-gray-500 font-medium'>Semana 8</p>
-          <p className='text-gray-500 font-medium'>Semana 15</p>
+          <p className='text-gray-500 font-medium'>Semana 10</p>
+          <p className='text-gray-500 font-medium'>Semana 20</p>
         </div>
       </div>
       <Recuerda message={"Recuerda que puedes organizar tus horas de estudio los días que quieras gracias a la flexibilidad que ofrecemos en LET Academy"} />
