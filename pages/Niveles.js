@@ -4,7 +4,7 @@ import Levels from '@/components/LevelSlider'
 import Recuerda from '@/components/Recuerda'
 import WhatsMyLevel from '@/components/WhatsMyLevel'
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import img4 from '@/public/model-kid-girl.jpg'
 import img2 from '@/public/model-girl.jpg'
 import chatLet from '@/public/onlinemeetingzoom.png'
@@ -13,9 +13,23 @@ import PdfReader from '@/components/pdfReader'
 import { AiOutlineDownload } from 'react-icons/ai'
 import { preguntasNiveles } from '@/models/preguntasFrecuentes'
 import SimpleAccordion from '@/components/Accordion'
+import Loading from '@/components/Loading'
 
 export default function Niveles() {
-  return (
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2500);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
+  return isLoading ? <Loading /> : (
     <>
       <CTA
         message={"No importa en el nivel que te encuentres, ¡siempre puedes mejorar!"}

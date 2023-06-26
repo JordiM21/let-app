@@ -3,7 +3,7 @@ import CustomAccordion from '@/components/CustomAccordion'
 import TableDiferences from '@/components/TableDiferences'
 import { PreguntasHome, preguntasBeneficios } from '@/models/preguntasFrecuentes'
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import modelkid from '@/public/model-kid-meeting.jpg'
 import modelgirl from '@/public/model-girl2.jpg'
 import Recuerda from '@/components/Recuerda'
@@ -11,9 +11,23 @@ import HoverableButton from '@/components/HoverableButton'
 import CTA from '@/components/CTA'
 import OtherBenefits from '@/components/OtherBenefits'
 import SimpleAccordion from '@/components/Accordion'
+import Loading from '@/components/Loading'
 
 export default function Beneficios() {
-  return (
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2500);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
+  return isLoading ? <Loading /> : (
     <div>
       <CTA
         message={"Expande tus posibilidades aprendiendo inglés"}

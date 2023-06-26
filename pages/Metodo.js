@@ -6,11 +6,25 @@ import HowItWorks from '@/components/HowItWorks'
 import MobileDesktop from '@/components/MobileDesktop'
 import Path from '@/components/Path'
 import TimePerWeek from '@/components/TimePerWeek'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { PreguntasHome } from '@/models/preguntasFrecuentes'
+import Loading from '@/components/Loading'
 
 export default function Metodo() {
-  return (
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2500);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
+
+  return isLoading ? <Loading /> : (
     <>
       <CTA
         message={"No te desmotives y aprovecha esta Oferta Especial."}
