@@ -2,6 +2,8 @@ import React from 'react'
 import onlineClass from '@/public/onlineClass.png'
 import Image from 'next/image'
 import { reasonsModel } from '@/models/reasonsModel'
+import Lottie from 'lottie-react'
+import welcome from '../public/animations/welcome.json'
 
 export default function Reasons() {
   return (
@@ -12,7 +14,8 @@ export default function Reasons() {
           <p className='text-2xl md:text-5xl'>Razones per las cuales Learn English Together es tu mejor opción</p>
         </div>
         <div className='md:w-1/2'>
-          <Image className='mx-auto rounded-md' src={onlineClass} height={400} width={400} />
+          <Lottie
+            animationData={welcome} className='w-[400px] h-[400px]' />
         </div>
       </div>
       <div className='flex gap-8 flex-col px-16 md:flex-row'>

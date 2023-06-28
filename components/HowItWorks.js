@@ -1,11 +1,16 @@
 import React from 'react'
 import Method from '@/public/e-learning.png'
 import Image from 'next/image'
+import Lottie from 'lottie-react'
+import student from '../public/animations/student.json'
 
 export default function HowItWorks() {
   return (
     <div className='flex md:mx-16 flex-col md:flex-row justify-center items-center'>
-      <Image className='w-80 md:w-96' src={Method} />
+      <Lottie
+        animationData={student}
+        className='w-80 md:w-[800px]'
+      />
       <div className='mx-8'>
         <small className='text-red-700'>Conoce el método líder y mas innovador de inglés online</small>
         <h2 className='text-3xl md:text-5xl my-4'>¿Como funciona LET Academy?</h2>

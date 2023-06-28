@@ -22,7 +22,7 @@ export default function Niveles() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2500);
+    }, 1500);
 
     return () => {
       clearTimeout(timer);

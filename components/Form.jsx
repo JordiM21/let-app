@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import TextField from "@mui/material/TextField";
+import { toast } from 'react-toastify';
 
 const Form = () => {
 	const [name, setName] = useState("");
@@ -16,10 +17,10 @@ const Form = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		if (name == "" || email == "" || country == "") {
-			return alert("Completa todos los campos por favor");
+			return toast.error("Completa todos los campos por favor");
 		}
 		if (!isValidEmail(email)) {
-			return alert("Email inválido");
+			return toast.error("Email inválido");
 		}
 		let data = {
 			name,

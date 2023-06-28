@@ -4,6 +4,7 @@ import Icon from '@/public/Icon.png'
 import IconBig from '@/public/CompleteLogo.png'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -67,11 +68,13 @@ export default function Example() {
                   </div>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <p className='text-white text-sm cursor-pointer hover:bg-[#01697e9b] p-2 bg-[var(--color2Shadow)] rounded-md'>
-                  Students
-                </p>
-              </div>
+              <Link href="https://let-students.vercel.app/" target="_blank">
+                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                  <p className='text-white text-sm cursor-pointer hover:bg-[#01697e9b] p-2 bg-[var(--color2Shadow)] rounded-md'>
+                    Students
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
           <Disclosure.Panel className="sm:hidden absolute z-10 bg-[var(--color2)] w-full">

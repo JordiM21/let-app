@@ -3,7 +3,6 @@ import banner from '@/public/banner-promociones.png'
 import Image from 'next/image'
 import Form from './Form'
 
-
 export default function BannerPromotions() {
   return (
     <div className='bg-[var(--color3)] md:flex md:justify-center md:items-center'>

@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import { FcIdea } from 'react-icons/fc'
 import Recuerda from './Recuerda'
+import Lottie from 'lottie-react'
+import tutor from '../public/animations/tutor.json'
+import HoverableButton from './HoverableButton'
 
 export default function TimePerWeek() {
   const [isChecked, setIsChecked] = useState(false)
@@ -52,6 +55,17 @@ export default function TimePerWeek() {
         </div>
       </div>
       <Recuerda message={"Recuerda que puedes organizar tus horas de estudio los días que quieras gracias a la flexibilidad que ofrecemos en LET Academy"} />
+      <div className='flex flex-col-reverse md:flex-row justify-center items-center px-16 py-2'>
+        <div className='md:w-1/2 my-2'>
+          <p className='text-2xl md:text-5xl text-[var(--color3)]'>Tu tutor personal te esta esperando!</p>
+          <p className='text-gray-800 my-8'>Al inicio del curso te asignaremos un tutor personal que te ayudará en tu proceso de aprendizaje y se asegurará de que logres tus objetivos. <span className='text-sky-600'>También tendrás su WhatsApp para escribirle cualquier duda.</span> Genial!</p>
+          <HoverableButton text={"Quiero ser Bilingue"} />
+        </div>
+        <div className='md:w-1/2'>
+          <Lottie
+            animationData={tutor} className='w-[400px] h-[400px]' />
+        </div>
+      </div>
     </div>
   )
 }
