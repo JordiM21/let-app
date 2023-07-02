@@ -10,7 +10,7 @@ import spain from '@/public/flags/spain.png'
 import romania from '@/public/flags/romania.png'
 import albania from '@/public/flags/albania.png'
 import italy from '@/public/flags/italy.png'
-import oldWoman from '@/public/Cattura.png'
+import oldWoman from '@/public/oldWoman.png'
 
 export const testimonios = [
   {
