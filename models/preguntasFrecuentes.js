@@ -1,4 +1,4 @@
-import { FcConferenceCall, FcCustomerSupport, FcFinePrint, FcManager, FcPlanner, FcVideoCall } from 'react-icons/fc'
+import { FcBullish, FcConferenceCall, FcCustomerSupport, FcDiploma1, FcFinePrint, FcManager, FcPlanner, FcVideoCall } from 'react-icons/fc'
 
 
 export const PreguntasHome = [
@@ -59,7 +59,7 @@ export const PreguntasHome = [
 export const preguntasBeneficios = [
   {
     title: "Plan de estudio personalizado",
-    text: "Creamos un plan de aprendizaje personalizado diferente a cada estudiante, sabemos que todos los estudiantes tienen un recorrido diferente y merecen atención especial en su camino.",
+    text: "Creamos un plan de aprendizaje personalizado diferente a cada estudiante, sabemos que todos los estudiantes tienen un recorrido diferente y merecen atención especial en su camino. Cada estudiante apenas entra es evaluado de acuerdo a sus puntos fuertes y objetivos para crear la mejor ruta de aprendizaje.",
     icon: <FcFinePrint className='text-5xl' />
   }, {
     title: "Tutor Personalizado",
@@ -67,13 +67,18 @@ export const preguntasBeneficios = [
     icon: <FcManager className='text-5xl' />
   },
   {
+    title: "Reporte de avance personalizado",
+    text: "Como padre tendrás mensualmente en tu bandeja de entrada un documento .pdf con las estadísticas y el avance de tu hijo a lo largo del mes, de esta manera tendrás total control sobre el aprendizaje y progreso de tu hijo, al igual si eres tu el estudiante recibirás tu proprio .pdf con tu avance y comentarios del tutor",
+    icon: <FcBullish className='text-5xl' />
+  },
+  {
     title: "Clases en vivo 1-1 semanales",
-    text: "Como mencionamos anteriormente tendrás una clase semanal con tu tutor con el objetivo de reforzar conocimientos y practicar lo visto en las clases de la semana, estas clases serán personalizadas y enfocadas en 1 estudiante unicamente",
+    text: "Tendrás videollamadas con tu tutor con el objetivo de reforzar conocimientos y practicar lo visto en las clases de la semana, estas clases serán personalizadas y enfocadas en 1 estudiante unicamente. Tu tutor estará allí para ayudarte cada vez que necesites ayuda o tengas alguna duda, en nuestra plataforma hay una opción de pedir ayuda la cual te conecta con tu tutor inmediatamente",
     icon: <FcVideoCall className='text-5xl' />
   },
   {
     title: "Apoyo Académico",
-    text: "Como sabes, tendrás el WhatsApp de tu TUTOR PERSONAL, a el cual le puedes enviar ya sea una foto de tu actividad a realizar o bien lo pueden discutir en la reunión semanal (Si le envías foto por WhatsApp recuerda que debes darles suficiente tiempo). el TUTOR PERSONAL tiene la función de ayudarte con tus tareas de colegio o universidad, sabemos que hacer estas tareas solos puede llegar a ser bastante complicado.",
+    text: "Como sabes, tendrás el WhatsApp de tu tutor, a el cual le puedes enviar ya sea una foto de tu actividad a realizar o bien lo pueden discutir en la reunión semanal (Si le envías foto por WhatsApp recuerda que debes darles suficiente tiempo). el tutor tiene la función de ayudarte con tus tareas de colegio o universidad, sabemos que hacer estas tareas solos puede llegar a ser bastante complicado y queremos que tengan el enfoque solo en LET Academy",
     icon: <FcConferenceCall className='text-5xl' />
   },
   {
@@ -85,6 +90,11 @@ export const preguntasBeneficios = [
     title: "Asesores 24/7",
     text: "Contamos con un equipo de asesores que estarán siempre dispuestos a responder cualquier duda que tengas acerca de: manejo de plataforma, horarios de estudio, asesorías, bugs o problemas. Recuerda que no son profesores, para eso tienes a tu TUTOR PERSONAL que verás en el siguiente bloque",
     icon: <FcCustomerSupport className='text-5xl' />
+  },
+  {
+    title: "Diploma internacional",
+    text: "Al final del curso obtendrás un certificado válido a nivel internacional el cual desmuestra tus habilidades adquiridas y los logros obtenidos a lo largo del programa, cabe destacar que tienes que superar los 3 Examenes de nivel para poder conseguirlo.",
+    icon: <FcDiploma1 className='text-5xl' />
   },
 ]
 
