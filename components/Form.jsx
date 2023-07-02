@@ -9,6 +9,7 @@ const Form = () => {
 	const [country, setCountry] = useState("");
 	const [message, setMessage] = useState("");
 	const [submitted, setSubmitted] = useState(false);
+	const [phone, setPhone] = useState("")
 
 	function isValidEmail(email) {
 		return /\S+@\S+\.\S+/.test(email);
@@ -16,7 +17,7 @@ const Form = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		if (name == "" || email == "" || country == "") {
+		if (name == "" || email == "" || country == "" || phone == "") {
 			return toast.error("Completa todos los campos por favor");
 		}
 		if (!isValidEmail(email)) {
@@ -27,6 +28,7 @@ const Form = () => {
 			email,
 			country,
 			message,
+			phone,
 		};
 		fetch("/api/contact", {
 			method: "POST",
@@ -46,6 +48,7 @@ const Form = () => {
 		setEmail("");
 		setMessage("");
 		setCountry("");
+		setPhone("")
 	};
 
 	return (
@@ -63,18 +66,19 @@ const Form = () => {
 								margin: "20px auto",
 							}}
 						>
-							Gracias por tu interés,
-							un asesor se pondrá en
+							¡Estás cada vez más cerca de hablar inglés con fluidez!
+							Un asesor se pondrá en
 							contacto contigo muy
 							pronto, por favor revisa
-							tu email regularmente
+							tu bandeja de entrada de promociones o spam
 						</h3>
 						<p
 							style={{
-								alignSelf: "flex-end",
+								alignSelf: "flex-start",
+								fontSize: ".7rem"
 							}}
 						>
-							footer
+							LET Team
 						</p>
 					</div>
 				) : (
@@ -104,6 +108,27 @@ const Form = () => {
 							<TextField
 								margin="normal"
 								required
+								type="text"
+								placeholder="62654000"
+								value={phone}
+								onChange={(
+									e
+								) => {
+									setPhone(
+										e
+											.target
+											.value
+									);
+								}}
+								fullWidth
+								label="Celular"
+								id="fullWidth"
+							/>
+						</div>
+						<div>
+							<TextField
+								margin="normal"
+								required
 								type="email"
 								placeholder="jhon@gmail.com"
 								value={email}
@@ -126,7 +151,7 @@ const Form = () => {
 								margin="normal"
 								required
 								type="text"
-								placeholder="Colombia"
+								placeholder="España"
 								value={country}
 								onChange={(
 									e
