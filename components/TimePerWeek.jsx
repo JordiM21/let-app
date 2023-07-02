@@ -26,12 +26,12 @@ export default function TimePerWeek() {
           isChecked ?
             <>
               <p>Completa un nivel en <span className='text-[var(--color3)]'>20 semanas</span></p>
-              <small className='text-gray-500'>6 horas de estudio semanales</small>
+              <small className='text-gray-500'>3 horas de estudio semanales</small>
             </>
             :
             <>
               <p>Completa un nivel en <span className='text-[var(--color2)]'>10 semanas</span></p>
-              <small className='text-gray-500'>3 horas de estudio semanales</small>
+              <small className='text-gray-500'>6 horas de estudio semanales</small>
             </>
         }
         <div className='mx-4 flex'>
