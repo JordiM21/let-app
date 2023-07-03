@@ -15,7 +15,7 @@ export default function Reasons() {
         </div>
         <div className='md:w-1/2'>
           <Lottie
-            animationData={welcome} className='w-[400px] h-[400px]' />
+            animationData={welcome} className='w-[250px] sm:w-[300px] md:w-[400px] h-[400px]' />
         </div>
       </div>
       <div className='flex gap-8 flex-col px-16 md:flex-row'>
