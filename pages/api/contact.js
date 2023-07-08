@@ -106,7 +106,7 @@ export default function (req, res) {
 			<img src="https://i.imgur.com/4WKWGu9.png" alt="Beneficios" />
 			<div class="flexCenter">
 			<a href="https://let-app.vercel.app/Beneficios" target="_blank" style="display: flex; justify-content: center; background-color: #004aad; color: #fff; font-size: 2rem; text-decoration: none; border-radius: 40px; padding: 16px; transition: ease-in 0.2s all; margin: 24px 0px;">
-			Descubre los beneficios
+			Beneficios
 		</a>		
 			</div>
 		</div>
